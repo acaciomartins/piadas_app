@@ -45,3 +45,39 @@ git clone https://github.com/acaciomartins/piadas_app.git
 # Entre no diretório do projeto
 cd piadas_app
 ```
+
+### 2. Criando o Ambiente Virtual
+
+```bash
+# Crie um ambiente virtual
+python -m venv venv
+
+# Ative o ambiente virtual
+# No Windows:
+venv\Scripts\activate
+# No Linux/Mac:
+source venv/bin/activate
+```
+
+### 3. Instalando as Dependências
+
+```bash
+# Instale as dependências do projeto
+pip install -r requirements.txt
+```
+
+### 4. Criando o Usuário Administrador
+
+```bash
+# Execute o script para criar o usuário admin
+python create_admin.py
+```
+
+### 5. Iniciando a Aplicação
+
+```bash
+# Execute a aplicação
+python run.py
+```
+
+A aplicação estará disponível em `http://localhost:5000`
