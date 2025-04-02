@@ -12,3 +12,17 @@ Uma aplicação web divertida para compartilhar piadas, com sistema de cadastro 
 
 - 👤 Sistema de cadastro e login de usuários
 - 🔒 Sistema de aprovação de novos usuários por administradores
+- 📝 Compartilhamento de piadas com título e conteúdo
+- 📱 Interface moderna e responsiva
+- 🎨 Design limpo e intuitivo com Bootstrap 5
+- 🔐 Autenticação segura com Flask-Login
+
+## 🚀 Tecnologias Utilizadas
+
+- Python 3.8+
+- Flask 3.0.2
+- Flask-SQLAlchemy
+- Flask-Login
+- Flask-WTF
+- Bootstrap 5
+- SQLite (banco de dados)
