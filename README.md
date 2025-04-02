@@ -105,3 +105,53 @@ Após executar o script `create_admin.py`, você terá acesso ao painel administ
 2. Acesse o painel administrativo
 3. Na seção "Usuários Pendentes de Aprovação", você verá a lista de novos usuários
 4. Clique em "Aprovar" para autorizar um usuário a compartilhar piadas
+
+## 🏗️ Estrutura do Projeto
+
+```
+piadas_app/
+├── app/
+│   ├── __init__.py
+│   ├── models.py
+│   ├── routes/
+│   │   ├── main.py
+│   │   ├── auth.py
+│   │   └── admin.py
+│   ├── forms.py
+│   └── templates/
+│       ├── base.html
+│       ├── index.html
+│       ├── login.html
+│       ├── register.html
+│       ├── nova_piada.html
+│       └── admin/
+│           └── dashboard.html
+├── config.py
+├── create_admin.py
+├── run.py
+└── requirements.txt
+```
+
+## 🤝 Contribuindo
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para:
+
+1. Fazer um fork do projeto
+2. Criar uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m "Add some AmazingFeature"`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abrir um Pull Request
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## 👥 Autores
+
+- Acacio Martins - [@acaciomartins](https://github.com/acaciomartins)
+
+## 🙏 Agradecimentos
+
+- Flask Team
+- Bootstrap Team
+- Todos os contribuidores do projeto
