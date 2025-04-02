@@ -26,3 +26,22 @@ Uma aplicação web divertida para compartilhar piadas, com sistema de cadastro 
 - Flask-WTF
 - Bootstrap 5
 - SQLite (banco de dados)
+
+## 📋 Pré-requisitos
+
+Antes de começar, você precisa ter instalado em sua máquina:
+- Python 3.8 ou superior
+- pip (gerenciador de pacotes Python)
+- Git (opcional, para clonar o repositório)
+
+## 🛠️ Instalação e Configuração
+
+### 1. Clonando o Repositório
+
+```bash
+# Clone o repositório
+git clone https://github.com/acaciomartins/piadas_app.git
+
+# Entre no diretório do projeto
+cd piadas_app
+```
