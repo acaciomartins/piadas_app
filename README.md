@@ -81,3 +81,27 @@ python run.py
 ```
 
 A aplicação estará disponível em `http://localhost:5000`
+
+## 👑 Credenciais do Administrador
+
+Após executar o script `create_admin.py`, você terá acesso ao painel administrativo com as seguintes credenciais:
+
+- Email: admin@example.com
+- Senha: admin123
+
+## 📖 Como Usar a Aplicação
+
+### Para Usuários Comuns
+
+1. Acesse a aplicação em `http://localhost:5000`
+2. Clique em "Registrar" para criar uma nova conta
+3. Preencha o formulário de registro com seus dados
+4. Aguarde a aprovação do administrador
+5. Após aprovado, você poderá fazer login e compartilhar piadas
+
+### Para Administradores
+
+1. Faça login com as credenciais de administrador
+2. Acesse o painel administrativo
+3. Na seção "Usuários Pendentes de Aprovação", você verá a lista de novos usuários
+4. Clique em "Aprovar" para autorizar um usuário a compartilhar piadas
